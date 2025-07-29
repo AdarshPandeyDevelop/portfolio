@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adarsh Pandey - Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/fav.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header id="navbar" class="navbar">
+      <div class="container">
+        <nav>
+          <a href="#hero" class="logo">
+            <span class="highlight">A</span>Pandey
+          </a>
+
+          <div class="nav-links" id="navLinks">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#achievements" class="nav-link">Achievements</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+
+          <div class="nav-buttons">
+            <button
+              id="theme-toggle"
+              class="theme-toggle"
+              aria-label="Toggle theme"
+            >
+              <i class="fas fa-moon"></i>
+            </button>
+            <button
+              id="mobile-menu-toggle"
+              class="mobile-menu-toggle"
+              aria-label="Toggle menu"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="mobile-menu">
+        <div class="container">
+          <a href="#about" class="mobile-nav-link">About</a>
+          <a href="#skills" class="mobile-nav-link">Skills</a>
+          <a href="#projects" class="mobile-nav-link">Projects</a>
+          <a href="#achievements" class="mobile-nav-link">Achievements</a>
+          <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text animate-on-scroll">
+            <span class="hero-tag"
+              >Web Developer | Backend Dev | Frontend Dev</span
+            >
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Adarsh Pandey</span>
+            </h1>
+            <p class="hero-description">
+              I'm a Developer skilled in building secure, high-performance web
+              apps using Node.js, Express, and MongoDB. I craft RESTful APIs,
+              manage auth, and build real-time features with WebSocket. I also
+              work with Docker and Nginx for smooth deployments.
+            </p>
+
+            <div class="hero-buttons animate-on-scroll">
+              <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> Get in touch
+              </a>
+              <a href="#projects" class="btn btn-secondary">
+                <i class="fas fa-code"></i> View projects
+              </a>
+            </div>
+
+            <div class="social-links animate-on-scroll">
+              <a
+                href="https://github.com/AdarshPandeyDevelop"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/adarsh-pandey-4124312b6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1q1EvdrGEFhd31pmI-LFW_BULbmLn0NSR/view?usp=drivesdk "
+                class="resume-link"
+                target="_blank"
+              >
+                <i class="fas fa-file-alt"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image animate-on-scroll">
+            <div class="profile-image">
+              <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="40" r="25" class="primary-color"></circle>
+                <rect
+                  x="25"
+                  y="70"
+                  width="100"
+                  height="70"
+                  rx="10"
+                  class="primary-color"
+                ></rect>
+              </svg>
+              <div class="image-overlay">
+                <img src="image/pic.webp" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Section -->
+    <section id="about" class="section light-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-content animate-on-scroll">
+          <p class="about-text">
+            I'm a passionate Developer with hands-on experience in building
+            secure and high-performance web apps using Node.js, Express, and
+            MongoDB. I enjoy crafting RESTful APIs, managing authentication, and
+            implementing real-time features with WebSocket and Socket.io. With a
+            keen eye for clean code and scalable systems, I also work with
+            Docker and Nginx for smooth deployments.
+          </p>
+
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="card-icon primary-bg">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="card-content">
+                <h3>Web Development</h3>
+                <p>
+                  Actively exploring Web Development with hands-on projects.
+                  Proficient in building RESTful APIs and integrating MongoDB
+                  with Node.js and Express.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="card-icon secondary-bg">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="card-content">
+                <h3>Backend & Frontend</h3>
+                <p>
+                  Completed projects using Node.js, Express, MongoDB, and
+                  Bootstrap. Passionate about building full stack web apps with
+                  clean UIs and secure backends.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="card-icon accent-bg">
+                <i class="fas fa-palette"></i>
+              </div>
+              <div class="card-content">
+                <h3>UI/UX Design</h3>
+                <p>
+                  Design enthusiast with a focus on user-first experiences and
+                  modern visual layouts.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="card-icon green-bg">
+                <i class="fas fa-code"></i>
+              </div>
+              <div class="card-content">
+                <h3>Projects</h3>
+                <p>
+                  Developed a fully functional blog application with user
+                  authentication and content management. Also built a real-time
+                  chat app using WebSocket for seamless live communication and
+                  many more.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-content">
+          <div class="skills-column animate-on-scroll" data-delay="2  00">
+            <div class="skills-card">
+              <div class="skills-header">
+                <div class="skills-icon secondary-bg">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <h3>Skills</h3>
+              </div>
+
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">JavaScript (ES6+)</span>
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Python<br /></span>
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">TypeScript<br /></span>
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 50%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">PHP</span>
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 60%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">C</span>
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 45%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >Authentication & Security
+                      <span style="color: rgb(190, 190, 190)"
+                        >(JWT, Bcyrpt, Session Management, Cookie
+                        Handling)</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 60%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >Database
+                      <span style="color: rgb(190, 190, 190)"
+                        >(MongoDB, Mongoose, MySQL)</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 60%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >Testing & Debugging
+                      <span style="color: rgb(190, 190, 190)"
+                        >(Console-based Debugging, Postman testing)</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 55%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-column animate-on-scroll">
+            <div class="skills-card">
+              <div class="skills-header">
+                <div class="skills-icon primary-bg">
+                  <i class="fas fa-tools"></i>
+                </div>
+                <h3>Skills</h3>
+              </div>
+
+              <div class="skills-list">
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Figma & UI/UX Basics</span>
+                    <span class="skill-level primary-text">Beginner</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress primary-gradient"
+                      style="width: 30%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >Frontend Development
+                      <span style="color: rgb(190, 190, 190)"
+                        >(HTML,CSS, Tailwind CSS, Bootstrap, EJS, DOM
+                        Manipulation, Locomotive Scroll)</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >Backend Development
+                      <span style="color: rgb(190, 190, 190)"
+                        >(Node.js, Express.js, REST API, Middleware, WebSocket,
+                        Socket.io, Nginx)</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name">Git & Github </span>
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 45%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >DevOps & Tools
+                      <span style="color: rgb(190, 190, 190)"
+                        >(Docker, Git, GitHub, Postman, Visual Studio Code,
+                        Nodemon, NPM)</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Advanced</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="skill-info">
+                    <span class="skill-name"
+                      >Core Node.js Concepts
+                      <span style="color: rgb(190, 190, 190)"
+                        >(File System(fs), Streams, Crypto Module, Cluster,
+                        Module(multi-core scaling), Multer(file uploads))</span
+                      ></span
+                    >
+                    <span class="skill-level secondary-text">Intermediate</span>
+                  </div>
+                  <div class="skill-bar">
+                    <div
+                      class="skill-progress secondary-gradient"
+                      style="width: 65%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Development Project Section Projects Section -->
+    <section id="projects" class="section light-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Development Projects</h2>
+          <div class="section-divider"></div>
+          <p class="section-description">
+            Here are some of the projects I've completed, showcasing my skills
+            in frontend design and backend development for full stack web
+            applications.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card animate-on-scroll" data-delay="300">
+            <div class="project-content">
+              <h3 class="project-title">Blog App</h3>
+              <span style="color: rgb(190, 190, 190)"
+                >(Full Stack Node.js Application)</span
+              >
+              <p class="project-description">
+                Developed a fully featured blogging platform with secure
+                authentication and user-specific post management. Technologies
+                used include Node.js, Express.js, MongoDB, JWT, bcrypt, Multer,
+                Tailwind CSS, and EJS.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag primary-tag">Node.js</span>
+                <span class="tag secondary-tag">Express.js</span>
+                <span class="tag accent-tag">JWT</span>
+                <span class="tag green-tag">MongoDB</span>
+                <span class="tag primary-tag">bcrypt</span>
+                <span class="tag accent-tag">Multer</span>
+                <span class="tag secondary-tag">Tailwind</span>
+                <span class="tag accent-tag">EJS</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status">
+                  <i class="fas fa-check-circle"></i> Completed
+                </span>
+
+                <a
+                  href="https://github.com/AdarshPandeyDevelop/blogapp"
+                  target="_blank"
+                  class="project-link primary-text"
+                >
+                  Github Link <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll" data-delay="300">
+            <div class="project-content">
+              <h3 class="project-title">Live Chat Application</h3>
+              <span style="color: rgb(190, 190, 190)"
+                >(Real-Time Messaging Platform)</span
+              >
+              <p class="project-description">
+                Developed a real-time chat app using Node.js, Express, and
+                Socket.io with WebSocket for two-way communication. Implemented
+                event-based architecture for instant message broadcasting and
+                low-latency performance. Designed a clean, responsive UI and
+                tested the app in a multi-client environment.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag primary-tag">Node.js</span>
+                <span class="tag secondary-tag">Express.js</span>
+                <span class="tag accent-tag">Socket.io</span>
+                <span class="tag green-tag">JavaScript</span>
+                <span class="tag primary-tag">CSS</span>
+                <span class="tag accent-tag">HTML</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status">
+                  <i class="fas fa-check-circle"></i> Completed
+                </span>
+
+                <a
+                  href="https://github.com/AdarshPandeyDevelop/livechat"
+                  target="_blank"
+                  class="project-link primary-text"
+                >
+                  Github Link <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll" data-delay="300">
+            <div class="project-content">
+              <h3 class="project-title">AI Doctor</h3>
+              <span style="color: rgb(190, 190, 190)"
+                >(Real-Time Disease Prediction App)</span
+              >
+              <p class="project-description">
+                Developed an AI-powered medical diagnosis assistant that
+                suggests possible diseases based on user-input symptoms.
+                Integrated a CORS-enabled API to fetch real-time results
+                dynamically. Designed a clean and user-friendly interface using
+                HTML, CSS, and JavaScript.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag primary-tag">JavaScript</span>
+                <span class="tag secondary-tag">CORS</span>
+                <span class="tag accent-tag">API</span>
+                <span class="tag green-tag">CSS</span>
+                <span class="tag accent-tag">HTML</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status">
+                  <i class="fas fa-check-circle"></i> Completed
+                </span>
+
+                <a
+                  href="https://github.com/AdarshPandeyDevelop/healthPredictor"
+                  target="_blank"
+                  class="project-link primary-text"
+                >
+                  Github Link <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll" data-delay="300">
+            <div class="project-content">
+              <h3 class="project-title">Text-to-Speech Converter</h3>
+              <span style="color: rgb(190, 190, 190)"
+                >(HTML, CSS, JavaScript)</span
+              >
+              <p class="project-description">
+                Created a web-based Text-to-Speech converter using HTML, CSS,
+                and JavaScript, leveraging the browser’s built-in
+                SpeechSynthesis API to transform user-input text into spoken
+                words. The application enhances accessibility for users with
+                visual or reading challenges and features a clean, responsive
+                interface optimized for all devices.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag primary-tag">JavaScript</span>
+                <span class="tag accent-tag">API</span>
+                <span class="tag green-tag">CSS</span>
+                <span class="tag accent-tag">HTML</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status">
+                  <i class="fas fa-check-circle"></i> Completed
+                </span>
+
+                <a
+                  href="https://github.com/AdarshPandeyDevelop/text-to-speech-convertor"
+                  target="_blank"
+                  class="project-link primary-text"
+                >
+                  Github Link <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card animate-on-scroll" data-delay="300">
+            <div class="project-content">
+              <h3 class="project-title">Heritage Website</h3>
+              <span style="color: rgb(190, 190, 190)"
+                >(HTML, CSS, JavaScript)</span
+              >
+              <p class="project-description">
+                Developed a responsive heritage-themed website using HTML, CSS,
+                and JavaScript, serving as an interactive encyclopedia of
+                historical content. The site features detailed sections on
+                monuments, rulers, and philosophers, presented in a clean and
+                accessible layout. Special attention was given to cross-browser
+                compatibility and mobile responsiveness to ensure a consistent
+                user experience across all devices.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag primary-tag">JavaScript</span>
+                <span class="tag green-tag">CSS</span>
+                <span class="tag accent-tag">HTML</span>
+              </div>
+
+              <div class="project-footer">
+                <span class="project-status">
+                  <i class="fas fa-check-circle"></i> Completed
+                </span>
+
+                <a
+                  href="https://github.com/AdarshPandeyDevelop/heritage"
+                  target="_blank"
+                  class="project-link primary-text"
+                >
+                  Github Link <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section light-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Achievements</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card animate-on-scroll">
+            <div class="achievement-icon primary-bg">
+              <i class="fas fa-medal"></i>
+            </div>
+
+            <h3 class="achievement-title">Web Designing Competition</h3>
+            <div class="achievement-content">
+              <p class="achievement-metric primary-text">1x Winner</p>
+              <p class="achievement-description">
+                Awarded for outstanding web design and innovative
+                problem-solving during a 1.5-hour Web Designing Competition held
+                at Makhanlal Chaturvedi University.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section gradient-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="section-divider"></div>
+          <p class="section-description">
+            Feel free to reach out for collaborations, opportunities, or just to
+            say hello!
+          </p>
+        </div>
+
+        <div class="contact-wrapper animate-on-scroll">
+          <div class="contact-card">
+            <div class="contact-content">
+              <div class="contact-header">
+                <div class="contact-avatar">
+                  <div class="avatar-placeholder">
+                    <span>AP</span>
+                    <img src="image/social-network.png" />
+                  </div>
+                </div>
+                <h3 class="card-title">Let's Connect</h3>
+                <p class="contact-tagline">
+                  I'm always open to new opportunities and collaborations
+                </p>
+              </div>
+
+              <div class="contact-methods">
+                <div class="contact-method">
+                  <div class="method-icon primary-bg">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="method-details">
+                    <p class="method-label">Email</p>
+                    <a
+                      href="mailto:adarsh.pandey11018@gmail.com"
+                      class="method-value"
+                      target="_blank"
+                    >
+                      adarsh.pandey11018@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon secondary-bg">
+                    <i class="fab fa-github"></i>
+                  </div>
+                  <div class="method-details">
+                    <p class="method-label">GitHub</p>
+                    <a
+                      href="https://github.com/AdarshPandeyDevelop"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="method-value"
+                    >
+                      github.com/AdarshPandeyDevelop
+                    </a>
+                  </div>
+                </div>
+
+                <div class="contact-method">
+                  <div class="method-icon accent-bg">
+                    <i class="fab fa-linkedin"></i>
+                  </div>
+                  <div class="method-details">
+                    <p class="method-label">LinkedIn</p>
+                    <a
+                      href="https://www.linkedin.com/in/adarsh-pandey-4124312b6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="method-value"
+                    >
+                      linkedin.com/in/adarshpandey
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="resume-download">
+                <p class="resume-text">
+                  Want to know more about my experience?
+                </p>
+                <a
+                  href="https://drive.google.com/file/d/1B6oTnQNQE-xpw-xI8sbf8wCMLGwVXgTu/view?usp=sharing"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  <i class="fas fa-file-alt"></i>View Resume
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p class="copyright">
+            © <span id="current-year">2025</span> Adarsh Pandey. All rights
+            reserved.
+          </p>
+
+          <div class="footer-social">
+            <a
+              href="https://github.com/AdarshPandeyDevelop"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adarsh-pandey-4124312b6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:adarsh.pandey11018@gmail.com" target="_blank">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
